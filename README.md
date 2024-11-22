@@ -4,6 +4,7 @@ The model takes input of previous 10 Readings an provides output for the future 
 Step 1. Clone the repo 
 Step 2. Install required Libraries using the following command : pip install ipykernel django djangorestframework tensorflow pandas numpy scikit-learn
 Step 3.Open powershell and run command : python manage.py runserver
+step 5.In views.py/timeseries/myproject , mention the location for the following files : timeseries.h5, scaler.pkl
 Step 4.Use the link " http://127.0.0.1:8000/api/timeseries/predict/ " in Postman and Select 'POST' method
 Step 5.Use the Following input to generate the prediction for next timestamp
 
