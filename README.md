@@ -1,5 +1,6 @@
 The Repository consists of a Tensorflow backed Timeseries Predictive model for Predicting the future temperature and Pressure of an electric Motor.
 The model takes input of previous 10 Readings an provides output for the future timestamp
+The entire system is integrated with a Django Rest Framework (DRF) backend to expose a simple API for interacting with the model
 
 Step 1. Clone the repo 
 
