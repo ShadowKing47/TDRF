@@ -12,11 +12,11 @@ import os
 import pickle
 
 
-model_path = r"C:\Users\91995\OneDrive\Desktop\DF\timeseries.h5"
+model_path = r"Enter Location for timeseries.h5 file"
 timeseries_model = tf.keras.models.load_model(model_path)
 
 # Load the saved scaler
-scaler_path = r"C:\Users\91995\OneDrive\Desktop\DF\scaler.pkl"
+scaler_path = r"Enter Location for scaler.pkl file"
 with open(scaler_path, 'rb') as f:
     scaler = pickle.load(f)
 
