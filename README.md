@@ -12,7 +12,9 @@ step 5.In views.py/timeseries/myproject , mention the location for the following
 Step 4.Use the link " http://127.0.0.1:8000/api/timeseries/predict/ " in Postman and Select 'POST' method
 
 Step 5.Headers section should be 
+
 key : Content_type
+
 Value : application/json
 
 Body Section Select raw -> JSON
