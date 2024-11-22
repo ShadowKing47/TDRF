@@ -11,13 +11,13 @@ step 5.In views.py/timeseries/myproject , mention the location for the following
 
 Step 4.Use the link " http://127.0.0.1:8000/api/timeseries/predict/ " in Postman and Select 'POST' method
 
-Step 5.Headers section should be 
+Step 5.Headers Section should be 
 
 key : Content_type
 
 Value : application/json
 
-Body Section Select raw -> JSON
+In Body Section select :  raw -> JSON
 
 Use the Following input to generate the prediction for next timestamp
 
