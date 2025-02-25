@@ -4,7 +4,7 @@ The entire system is integrated with a Django Rest Framework (DRF) backend to ex
 
 Step 1. Clone the repo 
 
-Step 2. Install required Libraries using the following command : pip install ipykernel django djangorestframework tensorflow pandas numpy scikit-learn
+Step 2. Install required Libraries using the following command : pip install ipykernel django djangorestframework tensorflow pandas numpy scikit-learn drf_yasg
 
 Step 3.Open powershell and run command : python manage.py runserver
 
